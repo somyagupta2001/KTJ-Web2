@@ -47,7 +47,8 @@
                 cell.addEventListener("click", function(){clickTile(i+1,j+1,m,n)});
                 cell.addEventListener("click", function(){moveMade(mValue(),nValue())});
                 document.getElementById("row"+i).appendChild(cell);}
-            }}
+            }
+        }
     function input(){
         row=parseInt(prompt("Enter no. of rows","Number from 1-9"));
         col=parseInt(prompt("Enter no. of columns","Number from 1-9"));

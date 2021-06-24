@@ -190,6 +190,7 @@ function isWin(m,n){
 function moveMade(m,n){
     //start timer at the first move
     if(start==0){
+        shuffle(m,n);
         startTimer();
         start=1;
     }
