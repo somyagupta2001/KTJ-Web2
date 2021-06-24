@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body { 
+    height: 100vh;
+    background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(90, 181, 255, 0.8));
+    margin-top: 0px ;
+    text-align: center;
+    }
+div{
+    margin: 0px auto;
+}
+    
+  /*  .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+      display: table-cell;
+      width: 120px;
+      height: 120px;
+      border: 2px solid rgb(10, 10, 10);
+      background: url("https://www.101computing.net/wp/wp-content/uploads/flower.png"); 
+      cursor: pointer;
+    }
+    
+    .tile1 {background-position: left top;}
+    .tile2 {background-position: center top;}
+    .tile3 {background-position: right top;}
+    .tile4 {background-position: left center;}
+    .tile5 {background-position: center center;}
+    .tile6 {background-position: right center;}
+    .tile7 {background-position: left bottom;}
+    .tile8 {background-position: center bottom;}
+    .tile9 {background: rgb(15, 15, 15); cursor: default;}*/
+
+    .button{
+        margin: 2rem;
+        color: white;
+        border-color: white;
+        background-color: rgba(136, 136, 136, 0.562);
+        font-size: 1.8rem;
+    }
+    .button:hover{
+        cursor: pointer;
+    }
+    
+    .display{
+        width: 15rem;
+        font-size: 1.8rem;
+        background-color: black;
+        padding: 0.5rem 0.5rem 1rem 0.5rem;
+        margin: 0.5rem;
+        border-style: solid;
+        border-color: rgb(88, 88, 88);
+        border-radius: 1rem;
+        color: cornsilk;
+        display: inline-block;
+    }
+    
